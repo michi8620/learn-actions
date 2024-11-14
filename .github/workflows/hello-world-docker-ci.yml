@@ -10,6 +10,11 @@ on:
         required: true
         default: '@michal'
         type: string
+      environment:
+        description: 'Environment to deploy to'
+        type: environment
+        required: true
+        
 
 jobs:
   test-action:
