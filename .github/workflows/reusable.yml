@@ -6,7 +6,7 @@ on:
         description: 'The person to greet'
         type: string
         required: true
-        default: World
+        default: Michal
     outputs:
       current-time:
         description: 'The time when greeting.'
